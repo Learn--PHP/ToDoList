@@ -124,7 +124,7 @@
 
 /* --------------- */
 
-#mike-todolist-table .signup {
+#mike-todolist-table .finish {
 	position: relative;
 	padding: 10px 20px;
 	color: #fff;
@@ -140,34 +140,34 @@
 	opacity: .9;       
 }
 
-#mike-todolist-table .signup:hover {
+#mike-todolist-table .finish:hover {
 	opacity: 1;       
 }
 
-#mike-todolist-table .signup:active {
+#mike-todolist-table .finish:active {
 	-moz-box-shadow: 0 2px 2px rgba(0,0,0,.3) inset;
 	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.3) inset;
 	box-shadow: 0 2px 2px rgba(0,0,0,.3) inset;       
 }			
 
-#mike-todolist-table .plan1 .signup{
+#mike-todolist-table .plan1 .finish{
 	background: #B3E03F;
 }
 
-#mike-todolist-table .plan2 .signup{
+#mike-todolist-table .plan2 .finish{
 	background: #7BD553;
 }
 
-#mike-todolist-table .plan3 .signup{
+#mike-todolist-table .plan3 .finish{
 	background: #3AD5A0;
 }
 
-#mike-todolist-table .plan4 .signup{
+#mike-todolist-table .plan4 .finish{
 	background: #45D0DA;
 }	
 
 #mike-todolist-table .container{
-	background:#AAA;
+	background:#CCC;
 	min-height: 140px;
 	max-height: 140px;
 	margin-bottom: 10px;

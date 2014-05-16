@@ -33,10 +33,10 @@
         <div class="deadline">2014-11-30</div>
         <div class="container">
             <div class="content">
-            fahouwfhaeilouwfhuioaewfhjiouawefhijoawefhop
+            今天天气正好
         </div>
         </div>
-        <a class="signup" href="http://www.todolist.com">Sign up</a>         
+        <a class="finish" href="http://www.todolist.com">finish</a>         
     </div>
     <div class="plan plan2">
         <div class="type">Professional</div>
@@ -47,7 +47,7 @@
             <li><b>10</b> Email Accounts</li>
             <li><b>Unlimited</b> subdomains</li>            
         </ul>
-        <a class="signup" href="http://www.todolist.com">Sign up</a>            
+        <a class="finish" href="http://www.todolist.com">finish</a>            
     </div>
     <div class="plan plan3">
         <div class="type">Standard</div>
@@ -58,7 +58,7 @@
             <li><b>5</b> Email Accounts</li>
             <li><b>Unlimited</b> subdomains</li>            
         </ul>
-        <a class="signup" href="http://www.todolist.com">Sign up</a>        
+        <a class="finish" href="http://www.todolist.com">finish</a>        
     </div>
     <div class="plan plan4">
         <div class="type">Basic</div>
@@ -69,7 +69,7 @@
             <li><b>2</b> Email Accounts</li>
             <li><b>Unlimited</b> subdomains</li>            
         </ul>
-        <a class="signup" href="http://www.todolist.com">Sign up</a>        
+        <a class="finish" href="http://www.todolist.com">finish</a>        
     </div>  
     <div class="plan plan4">
         <div class="type">Basic</div>
@@ -80,7 +80,7 @@
             <li><b>2</b> Email Accounts</li>
             <li><b>Unlimited</b> subdomains</li>            
         </ul>
-        <a class="signup" href="http://www.todolist.com">Sign up</a>        
+        <a class="finish" href="http://www.todolist.com">finish</a>        
     </div>  
 </div>
     </header><!-- end header -->
