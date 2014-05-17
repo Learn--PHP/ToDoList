@@ -1,6 +1,6 @@
 <?php
-$MYSQL_USER = "root";
-$MYSQL_PASSWORD = "delta-boyMIKE";
+$MYSQL_USER = "deltaboy";
+$MYSQL_PASSWORD = "deltaboy";
 $MYSQL_URL = "localhost";   //default localhost
-$MYSQL_DB_NAME = "todolist";
+$MYSQL_DB_NAME = "deltaboy";
 ?>

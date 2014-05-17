@@ -18,7 +18,7 @@
         <div class="todolist-top">
             <a href="http://www.mikecoder.net" target="_blank">AUTHOR'S WEBSITE @ http://mikecoder.net</a>
             <span class="right">
-                <a href="#">
+                <a href="https://github.com/MikeCoder/ToDoList">
                     <strong>FORK ME ON GITHUB</strong>
                 </a>
             </span>
