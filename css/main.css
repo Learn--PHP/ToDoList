@@ -39,7 +39,7 @@ section, header{
 }
 /* General Demo Style */
 body{
-	font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-family: Microsoft YaHei, Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	background:url(../images/bgnoise_lg.png);
 	font-weight: 400;
 	font-size: 15px;
@@ -59,7 +59,7 @@ a{
 	clear: both;
 }
 .container > header{
-	padding: 20px 30px 20px 30px;
+	padding: 10px 10px 20px 30px;
 	margin: 0px 20px 10px 20px;
 	position: relative;
 	display: block;
@@ -76,7 +76,7 @@ a{
 	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
 }
 .container > header h1 span{
-	font-family: 'Alegreya SC', Georgia, serif;
+	font-family: 'Microsoft YaHei','Alegreya SC', Georgia, serif;
 	font-size: 20px;
 	line-height: 20px;
 	display: block;
@@ -166,40 +166,55 @@ a{
 	text-shadow: 0px 1px 1px rgba(255,255,255,0.8);
 }
 
-.todolist-status-add{
-	width: 140px;
-	height:40px;
-	line-height: 38px;
-	text-align: center;
-	font-weight: italic;
-	color: #fff;
-	text-shadow:1px 1px 1px #333;
+
+/* Editor */
+input, textarea { 
+	font-family: Microsoft YaHei;
+	color:#444;
+	font-size: 18px;
+	padding: 9px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	margin: 5px 5px 5px 5px;
+	width: 200px;
+	background: #FFFFFF url('bg_form.png') left top repeat-x;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+
+textarea { 
+	color:#444;
+	width: 380px;
+	max-width: 400px;
+	height: 150px;
+	line-height: 150%;
+	resize: none;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus { 
+	color:#444;
+	border-color: #C9C9C9; 
+	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+
+.form label { 
+	text-align: left;
 	font-size: 20px;
-	border-radius: 5px;
-	margin:0 20px 20px 0;
-	position: relative;
-	overflow: hidden;
-	color: #1d6277;
-	text-shadow:1px 1px 1px #fff;
-	border:1px solid #dce1e6;
-	box-shadow: 0 1px 2px #fff inset,0 -1px 0 #a8abae inset;
-	background: -webkit-linear-gradient(top,#f2f3f7,#e4e8ec);
-	background: -moz-linear-gradient(top,#f2f3f7,#e4e8ec);
-	background: linear-gradient(top,#f2f3f7,#e4e8ec);
-}
-.todolist-status-add.rarrow:hover:after{
-	background:-webkit-linear-gradient(top left,#fefefe,#ebeced);
-	background:-moz-linear-gradient(top left,#fefefe,#ebeced);
-	background:linear-gradient(top left,#fefefe,#ebeced);
+	color: #888; 
 }
 
-.todolist-status-add.rarrow:active:after{
-	box-shadow: 0 1px 0 #b7babd inset,-1px 0 0 #b7babd inset;
-}
-
-.gray.rarrow:active:after{
-box-shadow: 0 1px 0 #b7babd inset,-1px 0 0 #b7babd inset;
-}
-.gray.larrow:active:after{
-box-shadow: 0 -1px 0 #b7babd inset,1px 0 0 #b7babd inset;
+.submit input {
+	width: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	background: #617798;
+	border: 0;
+	font-size: 18px;
+	color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
