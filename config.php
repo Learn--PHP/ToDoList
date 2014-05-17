@@ -1,5 +1,5 @@
 <?php
-$MYSQL_USER = "root";
-$MYSQL_PASSWORD = "delta-boyMIKE";
-$MYSQL_URL = "localhost";
+$MYSQL_USER = "your username";
+$MYSQL_PASSWORD = "your password";
+$MYSQL_URL = "your database url";
 ?>
