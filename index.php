@@ -16,7 +16,7 @@
     <div class="container">
         <!-- todolist top bar -->
         <div class="todolist-top">
-            <a href="http://www.mikecoder.net" target="_blank">AUTHOR'S WEBSITE @ http://mikecoder.net</a>
+            <a href="http://www.mikecoder.net" target="_blank">AUTHOR'S WEBSITE</a>
             <span class="right">
                 <a href="https://github.com/MikeCoder/ToDoList">
                     <strong>FORK ME ON GITHUB</strong>
@@ -25,12 +25,13 @@
             <div class="clr"></div>
         </div><!--/ todolist top bar -->
         <header>
-            <h1><span>A HTML5 and CSS3 Style TODO-List</span>Mike's TODO-List</h1>
+            <h1><span>A HTML5 and CSS3 Style TODO-List</span>TODO-List</h1>
         </header>       
         <!-- start header here-->
         <header>
             <div class="todolist-status">
                 <input type="button" class="button gray" id="add-task" value="添加新任务"></input> 
+                <br>
                 <script type="text/javascript">
                 var isclick = 0;
                 $(document).ready(function(){
@@ -61,7 +62,7 @@
                 $info = mysql_fetch_array($res);
                 $total = $info['sum'];
                 ?>
-                <div class="todolist-status-sum">待完成任务数为：<?php echo $total;?></div>
+                <div class="todolist-status-sum">待完成任务数：<?php echo $total;?></div>
                 <div class="todolist-status-editor" id="editor" style="display:none">
                     <center>
                         <form class="form" method="POST" action="addtask.php">

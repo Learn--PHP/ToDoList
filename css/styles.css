@@ -1,7 +1,7 @@
 #todolist-table {
 	margin:0 auto;
 	text-align: center;
-	width: 80%; /* total computed width */
+	width: 100%; /* total computed width */
 	zoom: 1;
 }
 
@@ -22,7 +22,7 @@
 	border: 1px solid #ddd;
 	color: #333;
 	padding: 20px;
-	width: 240px;
+	width: 180px;
 	float: left;
 	_display: inline; /* IE6 double margin fix */
 	position: relative;
@@ -49,11 +49,6 @@
 	-ms-transform: rotate(3deg);
 	transform: rotate(3deg);	
 }	
-
-#todolist-table .popular-plan {
-	top: -20px;
-	padding: 40px 20px;   
-}
 
 /* --------------- */	
 
