@@ -10,10 +10,12 @@ Here is some features of the TODO-List:
 > ![image](images/1.png)
 >
 > *This is the home page of this todo list, You can see all your tasks*
+
 ---
 > ![image](images/2.png)
 >
 > *This is your editor and you can use calendar to write your deadline*
+
 ---
 > ![image](images/3.png)
 >
