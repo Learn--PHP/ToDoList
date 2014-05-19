@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mike's TODO-List</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" media="all" charset="utf-8" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" media="all" charset="utf-8" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="all" charset="utf-8" href="css/kalendae.css" />
+
+    <script type="text/javascript" charset="utf-8" src="js/jquery-1-11-1.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/kalendae.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- todolist top bar -->
+        <div class="todolist-top">
+            <a href="http://www.mikecoder.net" target="_blank">AUTHOR'S WEBSITE</a>
+            <span class="right">
+                <a href="https://github.com/MikeCoder/ToDoList">
+                    <strong>FORK ME ON GITHUB</strong>
+                </a>
+            </span>
+            <div class="clr"></div>
+        </div><!--/ todolist top bar -->
+        <header>
+            <h1><span>A HTML5 and CSS3 Style TODO-List</span>TODO-List</h1>
+        </header>       
+        <!-- start header here-->
+        <header>
+            <div class="todolist-status">
+                <input type="button" class="button gray" id="add-task" value="添加新任务"></input> 
+                <br>
+                <script type="text/javascript">
+                var isclick = 0;
+                $(document).ready(function(){
+                    $("#add-task").click(function(){
+                        if (isclick == 0) {
+                            $("#editor").show();
+                            $("#add-task").val("取消添加");
+                            isclick = 1;
+                        }else{
+                            $("#editor").hide();
+                            isclick = 0;
+                            $("#add-task").val("添加新任务");
+                        }
+                    });
+                });
+                </script>
+                <div class="todolist-status-sum">待完成任务数：<?php echo $total;?></div>
+                <div class="todolist-status-editor" id="editor" style="display:none">
+                    <center>
+                        <form class="form" method="POST" action="addtask.php">
+                            <p class="type">
+                                <label for="type">任务分级<span>：</span></label>
+                                <input type="text" name="type" id="type" />
+                            </p>
+                            <p class="deadline">
+                                <label for="deadline">截止时间<span>：</span></label>
+                                <input type="text" readonly="readonly" class="auto-kal" id="deadline" name="deadline">
+                            </p>
+                            <label>任务简述<span>：</span></label>
+                            <p class="context">
+                                <textarea name="content"></textarea>
+                            </p>
+                            <p class="submit">
+                                <input type="submit" class="button gray" value="提交任务" />
+                            </p>
+                        </form>
+                    </center>
+                </div>
+            </div>
+            <div id="todolist-table">
+                <div class="plan plan1">
+                    <div class="type">HAHA</div>
+                    <div class="deadline">2015-04-11 </div>
+                    <div class="container">
+                        <div class="content">
+                           echo $row['content'];
+                       </div>
+                   </div>
+                   <a class="finish" href="finishtask.php?task-id=".$row['id']."">finish</a>
+               </div>
+                <div class="plan plan2">
+                    <div class="type">HAHA</div>
+                    <div class="deadline">2015-04-11 </div>
+                    <div class="container">
+                        <div class="content">
+                           echo $row['content'];
+                       </div>
+                   </div>
+                   <a class="finish" href="finishtask.php?task-id=".$row['id']."">finish</a>
+               </div>
+                <div class="plan plan3">
+                    <div class="type">HAHA</div>
+                    <div class="deadline">2015-04-11 </div>
+                    <div class="container">
+                        <div class="content">
+                           echo $row['content'];
+                       </div>
+                   </div>
+                   <a class="finish" href="finishtask.php?task-id=".$row['id']."">finish</a>
+               </div>
+                <div class="plan plan4">
+                    <div class="type">HAHA</div>
+                    <div class="deadline">2015-04-11 </div>
+                    <div class="container">
+                        <div class="content">
+                           echo $row['content'];
+                       </div>
+                   </div>
+                   <a class="finish" href="finishtask.php?task-id=".$row['id']."">finish</a>
+               </div>
+                <div class="plan plan5">
+                    <div class="type">HAHA</div>
+                    <div class="deadline">2015-04-11 </div>
+                    <div class="container">
+                        <div class="content">
+                           echo $row['content'];
+                       </div>
+                   </div>
+                   <a class="finish" href="finishtask.php?task-id=".$row['id']."">finish</a>
+               </div>
+                <div class="plan plan6">
+                    <div class="type">HAHA</div>
+                    <div class="deadline">2015-04-11 </div>
+                    <div class="container">
+                        <div class="content">
+                           echo $row['content'];
+                       </div>
+                   </div>
+                   <a class="finish" href="finishtask.php?task-id=".$row['id']."">finish</a>
+               </div>
+                <div class="plan plan7">
+                    <div class="type">HAHA</div>
+                    <div class="deadline">2015-04-11 </div>
+                    <div class="container">
+                        <div class="content">
+                           echo $row['content'];
+                       </div>
+                   </div>
+                   <a class="finish" href="finishtask.php?task-id=".$row['id']."">finish</a>
+               </div>
+                <div class="plan plan8">
+                    <div class="type">HAHA</div>
+                    <div class="deadline">2015-04-11 </div>
+                    <div class="container">
+                        <div class="content">
+                           echo $row['content'];
+                       </div>
+                   </div>
+                   <a class="finish" href="finishtask.php?task-id=".$row['id']."">finish</a>
+               </div>
+           </div>
+       </header>
+       <!-- end header -->
+   </div>
+</body>
+</html>
