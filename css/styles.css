@@ -17,7 +17,7 @@
 /* --------------- */	
 
 #todolist-table .plan {
-	font: 13px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;     
+	font: 13px 'Microsoft YaHei','Lucida Sans', 'trebuchet MS', Arial, Helvetica;     
 	background: #EEE;      
 	border: 1px solid #ddd;
 	color: #333;
@@ -166,7 +166,7 @@
 	padding-left: 50px;
 	padding-right: 50px;
 	color: #fff;
-	font: bold 14px Arial, Helvetica;
+	font: bold 14px Microsoft YaHei, Arial, Helvetica;
 	text-transform: uppercase;
 	text-decoration: none;
 	display: inline-block;       
